@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "jhipsterVersion": "4.6.1",
+    "applicationType": "gateway",
+    "gitHubOrganization": "pascalgrimaud",
+    "baseName": "TestJhipsterOnlineGateway",
+    "packageName": "io.github.pascalgrimaud.testjhipsteronline",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "hibernateCache": "hazelcast",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "gatling",
+      "protractor"
+    ],
+    "enableTranslation": "true",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "clientFramework": "angularX",
+    "packageFolder": "io/github/pascalgrimaud/testjhipsteronline",
+    "jwtSecretKey": "ac711c7092397dd0010ce5320f60a6b61c0ff523",
+    "jhiPrefix": "jhi"
+  }
+}
